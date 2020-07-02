@@ -1,5 +1,8 @@
 # Pharo Object Centric Breakpoint Tutorial
 
+This tutorial starts by an `Installation` part and is followed by a `Tutorial` part.
+If you use the experimental image, then you can directly start with the `Tutorial` part.
+
 ## Installation
 
 If you use the experiment image, you can skip this part and directly go to the `Tutorial` part.
