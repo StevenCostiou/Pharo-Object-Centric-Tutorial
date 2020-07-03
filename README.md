@@ -1,11 +1,8 @@
 # Pharo Object Centric Breakpoint Tutorial
-
-This tutorial starts by an `Installation` part and is followed by a `Tutorial` part.
-If you use the experimental image, then you can directly start with the `Tutorial` part.
+This installation procedure concerns you if you are using a standard Pharo 9 image.
+If you are using the object-centric experimental image, then you can directly start the Tutorial.
 
 ## Installation
-
-If you use the experiment image, you can skip this part and directly go to the `Tutorial` part.
 
 First, download a fresh Pharo 9 image and load new tools:
 ```Smalltalk
@@ -15,5 +12,3 @@ Metacello new
     load.
 ```
 As a second step, load the package `OCD-Tasks-Tutorial` from the current repository.
-
-## Tutorial 
