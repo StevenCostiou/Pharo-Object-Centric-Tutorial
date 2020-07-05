@@ -12,15 +12,23 @@ Class {
 }
 
 { #category : #adding }
-OCDBox >> addElement: anObject [
+OCDBox >> addElement: anObject [ 
 	elements add: anObject.
-	name := 'Box of ', elements size printString, ' elements'
+	name := 'Box of ', elements size printString, ' elements' 
 ]
 
 { #category : #initialization }
 OCDBox >> initialize [
 	elements := OrderedCollection new.
 	name := ''
+]
+
+{ #category : #accessing }
+OCDBox >> name2: i [
+	|n|
+	n := [:j| j squared].
+	n value: i.
+	^n squared
 ]
 
 { #category : #accessing }
